@@ -31,4 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This application uses REST Api call for the backed services.
 
 ## Admin portal
-Navigate to `http://localhost:8080/admin` to view the admin page.
+Navigate to `http://localhost:4200/admin` to view the admin page.
