@@ -1,6 +1,12 @@
 <div class="container">
   <table class="table table-bordered table-inverse">
     <tr>
+      <td colspan="4">
+          <a routerLink="/">Back to Registration</a> 
+      </td>
+    </tr>
+      
+    <tr>
       <th>Owner Name</th>
       <th>Email</th>
       <th>Model</th>
@@ -8,7 +14,7 @@
     </tr>
     <tr *ngFor="let bike of bikes">
       <td>
-        {{bike.name}}
+        <a [routerLink]="['view', bike.id]">{{bike.name}}</a>
       </td>
       <td>
         {{bike.email}}

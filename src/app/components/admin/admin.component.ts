@@ -12,6 +12,7 @@ export class AdminComponent implements OnInit {
   constructor(private bikeService: BikeService) { }
 
   ngOnInit() {
+    this.getBikes();
   }
 
   getBikes() {
